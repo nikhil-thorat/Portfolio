@@ -2,11 +2,10 @@ import { getBlogBySlug, getBlogSlugs } from "@/lib/blog";
 import Markdown from "markdown-to-jsx";
 import { Metadata } from "next";
 
-interface BlogPageParams {
-	params: {
-		slug: string;
-	};
-}
+type Props = {
+	params: { slug: string };
+	searchParams: { [key: string]: string | string[] | undefined };
+};
 
 export const generateStaticParams = () => {
 	const slugs = getBlogSlugs();
@@ -15,9 +14,8 @@ export const generateStaticParams = () => {
 
 export const generateMetadata = async ({
 	params,
-}: BlogPageParams): Promise<Metadata> => {
-	const { slug } = await params;
-	const blog = await getBlogBySlug(slug);
+}: Props): Promise<Metadata> => {
+	const blog = await getBlogBySlug(params.slug);
 
 	const description =
 		blog.content
@@ -33,16 +31,14 @@ export const generateMetadata = async ({
 			description,
 			type: "article",
 			publishedTime: blog.date,
-			url: `https://iamnikhilthorat.vercel.app/blogs/${slug}`,
+			url: `https://iamnikhilthorat.vercel.app/blogs/${params.slug}`,
 		},
 		authors: [{ name: "Nikhil Thorat" }],
 	};
 };
 
-const Blog = async ({ params }: BlogPageParams) => {
-	const { slug } = await params;
-
-	const blog = await getBlogBySlug(slug);
+const Blog = async ({ params }: Props) => {
+	const blog = await getBlogBySlug(params.slug);
 
 	return (
 		<article className="container max-w-3xl my-10 min-h-screen h-auto flex flex-col gap-4">
