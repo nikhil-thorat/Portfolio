@@ -65,7 +65,7 @@ export default function RootLayout({
 		<html lang="en" suppressHydrationWarning>
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<body
-				className={`${Satoshi.className} antialiased px-4 py-4 md:py-10 text-neutral-900 bg-neutral-50 dark:text-neutral-50 dark:bg-neutral-900`}
+				className={`${Satoshi.className} antialiased px-4 py-4 md:py-10 text-neutral-950 bg-neutral-50 dark:text-neutral-50 dark:bg-neutral-950`}
 			>
 				<GlobalProviders>
 					<Header />
