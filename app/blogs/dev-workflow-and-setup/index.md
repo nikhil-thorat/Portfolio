@@ -13,9 +13,9 @@ Over the next years, I realized the importance of setting up a development envir
 
 ## Terminal
 
-Being a developer, you will spend most of the time inside the terminal. So it is necessary for you to have a terminal which is best suited for you and the work you do. For a very long time [Hyper](https://hyper.is) was my goto choice for terminal emulator, however it is built using [Electron](https://electronjs.org) framework which is quite a bit low on performance and sometimes it displays weird artifacts in the terminal.
+Being a developer, you will spend most of the time inside the terminal. So it is necessary for you to have a terminal which is best suited for you and the work you do. For a very long time [Hyper](https://hyper.is) was my go to choice for terminal emulator, however it is built using [Electron](https://electronjs.org) framework which is quite a bit low on performance and sometimes it displays weird artifacts in the terminal.
 
-So recently, I started using the default [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US) emulator which ships with newest version of Windows 11 (23H2) or you can download it from Microsoft Store. I configured it to use [PowerShell 7+](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) with some additional terminal based tools I use to make me more productive inside the terminal.
+So recently, I started using the default [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US) emulator which ships with newest version of Windows 11 (23H2), you can download it from Microsoft Store. I configured it to use [PowerShell 7+](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) with some additional terminal based tools I use to make me more productive inside the terminal.
 
 ![Editor image](/images/terminal.png)
 
@@ -27,7 +27,7 @@ Nerd Fonts are not like regular fonts, it is a Font for Nerds like us. It consis
 
 ### [2. Oh My Posh](https://ohmyposh.dev)
 
-Oh My Posh which is a Prompt theme engine that works on any shell you can think of. It helps you customizing the look of your terminal, by using existing themes it provides or you can create one for yourself. I am personally a huge fan of [Catppuccin](https://github.com/catppuccin/catppuccin) themes specifically the Mocha variant of it. Oh My Posh is also portable, means you can have one config that works everywhere.
+Oh My Posh is a Prompt theme engine that works on any shell you can think of. It helps you customizing the look of your terminal, by using existing themes it provides or you can create one for yourself. I am personally a huge fan of [Catppuccin](https://github.com/catppuccin/catppuccin) themes specifically the Mocha variant of it. Oh My Posh is also portable, means you can have one config that works everywhere.
 
 ### [3. Terminal Icons](https://github.com/devblackops/Terminal-Icon)
 
@@ -70,12 +70,12 @@ This extension allows you to customize the appearance of the VS Code. It gives y
 
 ### [2. Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
 
-As you might know now that I am fan of [Catppuccin themes](https://github.com/catppuccin/catppuccin), I also use it inside VS Code. 
+As you might know now that I am fan of [Catppuccin](https://github.com/catppuccin/catppuccin) themes, I also use it inside VS Code. 
 
-Some of my recommendations 
-- Default Dark+, 
-- [Gruvbox Dark (Hard)](https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox), 
-- [Material Theme (Darker)](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme), 
+Some of my recommended themes 
+- Default Dark+
+- [Gruvbox Dark (Hard)](https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox) 
+- [Material Theme (Darker)](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) 
 - [Minimal](https://marketplace.visualstudio.com/items?itemName=nichabosh.minimalist-dark)
 - [Poimandres](https://marketplace.visualstudio.com/items?itemName=pmndrs.pmndrs) 
 - [Rose Pine](https://marketplace.visualstudio.com/items?itemName=mvllow.rose-pine)
